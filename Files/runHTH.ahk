@@ -51,7 +51,7 @@ if (outVar = 1)
 {
 FileDelete, run.txt
 Sleep, 200
-Run, "chrome.exe" "%A_ScriptDir%HTH test\index.html"
+Run, "chrome.exe" "%A_ScriptDir%\HTH test\index.html"
 ExitApp
 }
 Sleep, 20

@@ -95,7 +95,7 @@ Gui, Destroy
 MsgBox, 262208, RUN...., RUNING!, 0.10
 
 Sleep, 100
-Run, "chrome.exe" "%A_ScriptDir%HTML JS\TEST6969420_%ran1%__%A_Nowww%.html"
+Run, "chrome.exe" "%A_ScriptDir%\HTML JS\TEST6969420_%ran1%__%A_Nowww%.html"
 if (runConsole = 1)
 {
 WinActivate, 1
